@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#logo,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lora", serif;
+}
+
+
+
+header{
+    border-bottom: 1px solid black ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 5rem;
+}
+
+    #logo{
+        color:rgb(84, 1, 1);
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+     h1, .h1{
+        font-size: 2.3rem;
+        margin-bottom: 1.5rem;
+     }
+     h2,.h2{
+        
+        font-size: 2.488remrem;
+     }
+     h3,.h3{
+        font-size:2.074remrem ;
+     }
+     h4, .h4{
+        font-size: 1.728remrem ;
+        color:rgb(8, 8, 8) ;
+     }
+
+     h5, .h5{
+        font-size: 1.44rem;
+     }
+
+     h6, .h6{
+        font-size: 1.2rem;
+
+     }
+     p, .p{
+        font-size: 0.833rem;
+        color: rgb(113, 113, 114);
+        margin-top:1rem;
+     }
+     .price{
+        display: inline-block;
+         color:rgb(8, 8, 8);
+         margin-bottom: 1rem;
+
+     }
+
+    section{
+        padding: 4rem 0;
+
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    header .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+        list-style: none;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: rgb(61, 61, 61);
+    }
+    
+    .headicon{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .headicon a{
+        text-decoration: none;
+        color: rgb(16, 2, 2);
+    }
+    #section1 .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:  5rem;
+    }
+    #images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 1.5em; 
+    }
+
+    #images img{
+        width:100%;
+        height:100%
+    }
+
+    #image1 {
+        grid-row-start: 1;
+        grid-row-end: span 1;
+        grid-column-start: 1;
+        grid-column-end: span 1;
+    }
+    
+    #image2 {
+        grid-row-start: 2;
+        grid-row-end: span 1;
+        grid-column-start: 1;
+        grid-column-end: span 1;
+    }
+    
+    #image3 {
+        grid-row-start: 3;
+        grid-row-end: span 1;
+        grid-column-start: 1;
+        grid-column-end: span 1;
+    }
+    
+    #image4 {
+        grid-row-start: 4;
+        grid-row-end: span 1;
+        grid-column-start: 1;
+        grid-column-end: span 1;
+    }
+    
+    #mainImage {
+        grid-row-start: 1;
+        grid-row-end: span 4;
+        grid-column-start: 2;
+        grid-column-end: span 3;
+    }
+
+     .variants{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:0.5rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1rem;
+     }
+
+     .variant img{
+        width:3rem;
+        height: 3rem;
+        border-radius: 50%;
+     }
+      .button{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem 1rem;
+        border-radius: 13rem;
+        border: none;
+      }
+      .buttonrtp{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 1rem;
+        border-radius: 13rem;
+        border: none;
+      }
+      
+          
+      .buttonp{
+        background-color:rgb(84, 1, 1) ;
+        color:white;
+
+      }
+
+      .buttons{
+        width:100%;
+        background-color: white;
+        color:rgb(84, 1, 1) ;
+        border: 1px solid black;
+      }
+
+      .buttonholder{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: .5rem;
+        margin-top: 15rem;
+      }
+    
+      .productlist{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        margin-top: 1.5rem;
+
+      }
+
+      .product{
+        border-radius: 0.5rem;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+
+      .product img{
+        width:100%
+      }
+
+      .pandb{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .productdetail{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 1rem;
+      }
