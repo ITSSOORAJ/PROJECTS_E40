@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHERY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="CITY_NAME" spellcheck="false">
+            <button><img src="data:image/jpeg;base64,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"></button>
+        </div>
+        <div class="weather">
+            <img src="https://cdn-icons-png.flaticon.com/128/3313/3313888.png" class="wicon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">ISRAEL</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="https://cdn-icons-png.flaticon.com/128/727/727790.png" alt="">
+                        <div>
+                        <p class="humidity">50%</p>
+                        <p>HUMIDITY</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2057/2057945.png">
+                    <div>
+                        <p class="wind">10 km/h</p>
+                        <p>WINDSPEED</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script>
+        const apikey="4eb3703790b356562054106543b748b2";
+        const apiurl="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+
+        const searchbox=document.querySelector(".search input");
+        const searchbttn=document.querySelector(".search button");
+        const weathericon =document.querySelector(".wicon");
+
+        async function checkweather(city){
+            const response = await fetch(apiurl+city+`&appid=${apikey}`);
+            var data = await response.json();
+
+            console.log(data);
+
+            document.querySelector(".city").innerHTML=data.name;
+            document.querySelector(".temp").innerHTML=data.main.temp + "°C";
+            document.querySelector(".humidity").innerHTML=data.main.humidity + "%";
+            document.querySelector(".wind").innerHTML=data.wind.speed + "Km/hr";
+
+            if(data.weather[0].main=="Clouds")
+                {
+                    weathericon.src = "https://cdn-icons-png.flaticon.com/128/3222/3222801.png"
+                }
+                else if(data.weather[0].main == "Clear")
+                {
+                    weathericon.src = "https://cdn-icons-png.flaticon.com/128/3222/3222800.png"
+                }
+                else if(data.weather[0].main == "Rain")
+                {
+                    weathericon.src="https://cdn-icons-png.flaticon.com/128/4724/4724094.png"
+                }
+                else if(data.weather[0].main == "Drizzle")
+                {
+                    weathericon.src="https://cdn-icons-png.flaticon.com/128/1163/1163661.png"
+                }
+                else if(data.weather[0].main == "Mist")
+                {
+                    weathericon.src="https://cdn-icons-png.flaticon.com/128/7687/7687077.png"
+                }
+
+
+
+        }
+
+        searchbttn.addEventListener("click", ()=>{
+            checkweather(searchbox.value);
+        })
+        
+    </script>
+
+</body>
+</html>
