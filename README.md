@@ -44,6 +44,8 @@
 
 <p align="center"><img src="https://media.licdn.com/dms/image/D5622AQG_GEyalTBEpA/feedshare-shrink_2048_1536/0/1713696136690?e=1716422400&v=beta&t=BfNz8PwyxowDlD8gla40eok1EGnl4SedUuqCv91C_oI"></p>
 <h1 align="center" id="title">RANDOM IMAGE FEEDER</h1>
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7185692424348819456" height="740" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<video>
+  <source src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7185692424348819456">
+</video>
 
 
