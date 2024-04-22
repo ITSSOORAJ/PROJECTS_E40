@@ -43,6 +43,10 @@
 <h1 align="center" id="title">FLIP A COIN</h1>
 
 <p align="center"><img src="https://media.licdn.com/dms/image/D5622AQG_GEyalTBEpA/feedshare-shrink_2048_1536/0/1713696136690?e=1716422400&v=beta&t=BfNz8PwyxowDlD8gla40eok1EGnl4SedUuqCv91C_oI"></p>
+<h1 align="center" id="title">WEB NEWS APP</h1>
+
+<p align="center"><img src="https://media.licdn.com/dms/image/D5622AQEXNYAwqkGTtg/feedshare-shrink_800/0/1713807056806?e=1716422400&v=beta&t=aDcJpOjYy2M69NhIP27wMa_yfans_F2pEyXk67qQp48"></p>
+
 <h1 align="center" id="title">RANDOM IMAGE FEEDER</h1>
 <video>
   <source src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7185692424348819456">
